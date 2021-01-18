@@ -1,0 +1,12 @@
+#+title: White Chocolate Macadamia
+
+A Haskell Stack template for a cookie cutter project.
+
+* Usage 
+
+To create a new stack project with this template use the following
+
+#+begin_src sh
+stack new my-project https://raw.githubusercontent.com/aezarebski/white-chocolate-macadamia/main/macadamia.hsfiles
+#+end_src
+
