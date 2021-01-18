@@ -1,0 +1,23 @@
+#+title: White Chocolate Macadamia
+
+A Haskell Stack template for a cookie cutter project.
+
+* Features
+
+- Single executable
+- MIT license (which is also the license used by default).
+
+* Usage 
+
+To create a new stack project with this template use the following
+
+#+begin_src sh
+stack new my-project https://raw.githubusercontent.com/aezarebski/white-chocolate-macadamia/main/macadamia.hsfiles
+#+end_src
+
+In case you have not set up your stack configuration file, at =~/.stack/config=,
+you can still provide details when starting the new project. For example you
+might add you name by appending =-p "author-name:Alexander E. Zarebski"= to the
+end of the command above.
+
+
