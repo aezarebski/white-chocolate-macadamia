@@ -18,6 +18,15 @@ stack new my-project https://raw.githubusercontent.com/aezarebski/white-chocolat
 In case you have not set up your stack configuration file, at =~/.stack/config=,
 you can still provide details when starting the new project. For example you
 might add you name by appending =-p "author-name:Alexander E. Zarebski"= to the
-end of the command above.
+end of the command above. If you want this to create the project in the current
+directory, add the =--bare= flag after the project name and before the URL.
 
+The project template has downloaded use the following commands to check
+everything is working correctly. The setup step may take a while if you need to
+download GHC.
 
+#+begin_src sh
+stack setup                     # this may take a couple of minuts
+stack build
+stack run
+#+end_src

@@ -32,7 +32,7 @@ module Main where
 
 main :: IO ()
 main = do
-  putStrLn "hello world"
+  putStrLn "delicious delicious cookies"
 
 {-# START_FILE LICENSE #-}
 MIT License
