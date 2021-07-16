@@ -4,8 +4,16 @@ A Haskell Stack template for a cookie cutter project.
 
 * Features
 
+** =macadamia.hsfiles=
+
 - Single executable
 - MIT license (which is also the license used by default).
+
+** =macadamia-matplotlib.hsfiles=
+
+- Single executable
+- MIT license (which is also the license used by default).
+- example using =matplotlib=
 
 * Usage 
 
