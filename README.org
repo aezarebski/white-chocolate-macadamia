@@ -7,21 +7,33 @@ A Haskell Stack template for a cookie cutter project.
 ** =macadamia.hsfiles=
 
 - Single executable
-- MIT license (which is also the license used by default).
+- MIT license (which is also the license used by default)
 
 ** =macadamia-matplotlib.hsfiles=
 
 - Single executable
-- MIT license (which is also the license used by default).
-- example using =matplotlib=
+- MIT license (which is also the license used by default)
+- Example using =matplotlib= for visualisation
+
+** =macadamia-hspec.hsfiles=
+
+- Single executable
+- MIT license (which is also the license used by default)
+- Example using =hspec= for testing
 
 * Usage 
 
 To create a new stack project with this template use the following
 
 #+begin_src sh
-stack new my-project https://raw.githubusercontent.com/aezarebski/white-chocolate-macadamia/main/macadamia.hsfiles
+stack new my-project <url/for.hsfiles> 
 #+end_src
+
+For example
+
+- =https://raw.githubusercontent.com/aezarebski/white-chocolate-macadamia/main/macadamia.hsfiles=
+- =https://raw.githubusercontent.com/aezarebski/white-chocolate-macadamia/main/macadamia-matplotlib.hsfiles=
+- =https://raw.githubusercontent.com/aezarebski/white-chocolate-macadamia/main/macadamia-hspec.hsfiles=
 
 In case you have not set up your stack configuration file, at =~/.stack/config=,
 you can still provide details when starting the new project. For example you
